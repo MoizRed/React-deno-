@@ -1,15 +1,15 @@
 // @deno-types="@types/react"
 
 import "./App.css";
-import ConditionalComponent from "./ConditionalComponent.tsx";
-
-import Fruits from "./Fruits.tsx";
+import Counter from "./Counter.tsx";
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
-    <ConditionalComponent display={true} />
+      <h1>REACT TYPESCRIPT</h1>
+
+        <Counter />
+
     </>
   );
 }
