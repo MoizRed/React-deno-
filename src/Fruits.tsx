@@ -1,14 +1,14 @@
 import Fruit from "./Fruit.tsx";
 
 export type Fruit_type = {
-  readonly  id? : number,
+  readonly id?: number;
   name: string;
   price: number;
   emoji: string;
 };
 
-export default function Fruits( ) {
-  const fruits : Fruit_type[] = [
+export default function Fruits() {
+  const fruits: Fruit_type[] = [
     {
       id: 1,
       name: "Apple",
@@ -39,15 +39,10 @@ export default function Fruits( ) {
   return (
     <>
       <ol>
-
-    {
-
-      fruits.map(fruit=><li key={fruit.name}> {fruit.name} {fruit.emoji}  :  {fruit.price} $ </li>)
-    }
+        {fruits.map((fruit) => (
+          <li key={fruit.name}>{fruit.name} {fruit.emoji} : {fruit.price} $</li>
+        ))}
       </ol>
     </>
   );
 }
-
-
-

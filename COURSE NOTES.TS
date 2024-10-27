@@ -51,5 +51,4 @@ basically , props cannot be changed after the component is created. can they? :
 */
 //list me all videos of this link : https://www.youtube.com/playlist?list=PLSsAz5wf2lkK_ekd0J__44KG6QoXetZza
 
-
 // component variables are cool
